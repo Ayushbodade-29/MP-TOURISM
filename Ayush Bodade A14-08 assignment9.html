@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Incredible MP</title>
+    <meta charset="utf-8">
+    <style>
+        @keyframes colorChange 
+        {
+            from {color: maroon;}
+            to {color: darkblue;}
+        }
+
+
+        body 
+        {
+            font-family: sans-serif;
+            background-image: url('mp.jpg');
+            background-size: cover; 
+            background-attachment: fixed; 
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container 
+        {
+            background-color: rgba(255, 255, 255, 0.9); 
+            width: 80%; 
+            margin: 0 auto; 
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #333;
+        }
+
+        h1 
+        {
+            animation-name: colorChange;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        article 
+        {
+            border-bottom: 2px dashed gray;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+
+        img, video {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px gray;
+            display: block; 
+            margin: 10px auto; 
+        }
+        
+        iframe 
+        {
+             border: 5px solid white;
+             box-shadow: 0px 0px 10px gray;
+        }
+
+        nav a 
+        {
+            font-size: 20px;
+            margin: 0 15px;
+            font-weight: bold;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to Incredible Madhya Pradesh</h1>
+            <nav>
+                <a href="#khajuraho">Khajuraho</a> |
+                <a href="#kanha">Kanha</a> |
+                <a href="#sanchi">Sanchi</a> |
+                <a href="#gwalior">Gwalior</a>
+            </nav>
+        </header>
+        <hr>
+
+        <article id="khajuraho">
+            <h2>1. Khajuraho Temples</h2>
+            <figure>
+                <img src="khajurao.jpg" alt="Khajuraho" height="100" width="500">
+                <figcaption><i>World famous for intricate sculptures</i></figcaption>
+            </figure>
+            
+            <details>
+                <summary><b>[ Click to Read Significance ]</b></summary>
+                <p>Khajuraho is a UNESCO World Heritage site. The temples are famous for their Nagara-style architectural symbolism.</p>
+            </details>
+
+            <p><b>Audio Guide:</b></p>
+            <audio controls src="khajuraho.mp3"></audio>
+
+            <p><b>Video Tour:</b></p>
+            <video controls width="400">
+                <source src="khajurao video.mp4" type="video/mp4">
+            </video>
+        </article>
+
+        <article id="kanha">
+            <h2>2. Kanha National Park</h2>
+            <figure>
+                <img src="kanha.jpg" alt="Kanha" height="100" width="500">
+                <figcaption><i>The land of the Jungle Book</i></figcaption>
+            </figure>
+            
+            <details>
+                <summary><b>[ Click to Read Significance ]</b></summary>
+                <p>The largest national park in MP. It hosts a significant population of the Royal Bengal Tiger.</p>
+            </details>
+
+            <p><b>Audio Guide:</b></p>
+            <audio controls src="kanha.mp3"></audio>
+
+            <p><b>Video Tour:</b></p>
+            <video controls width="400">
+                <source src="kanha video.mp4" type="video/mp4">
+            </video>
+        </article>
+
+        <article id="sanchi">
+            <h2>3. Sanchi Stupa</h2>
+            <figure>
+                <img src="Sanchi-Stupa.jpg" alt="Sanchi" height="100" width="500">
+                <figcaption><i>A Buddhist Complex</i></figcaption>
+            </figure>
+            
+            <details>
+                <summary><b>[ Click to Read Significance ]</b></summary>
+                <p>One of the oldest stone structures in India, originally commissioned by the emperor Ashoka.</p>
+            </details>
+
+            <p><b>Audio Guide:</b></p>
+            <audio controls src="sanchi.mp3"></audio>
+
+            <p><b>Video Tour:</b></p>
+            <video controls width="400">
+                <source src="sanchi video.mp4" type="video/mp4">
+            </video>
+        </article>
+
+        <section>
+            <h2>Official Tourism Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.389278912995!2d77.4126!3d23.2599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d9f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1600000000000" width="80%" height="300" allowfullscreen></iframe>
+        </section>
+
+        <footer>
+            <hr>
+            <p>&copy; 2025 MP Tourism Student Project</p>
+        </footer>
+    </div>
+
+</body>
+</html>
