@@ -1,2 +1,2 @@
 # MP-TOURISM
-i have created a webpage for MP Tourism using HTML and CSS language
+A responsive tourism portal for Madhya Pradesh featuring modern UI/UX design and semantic HTML5/CSS3 layout.
